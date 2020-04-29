@@ -1,11 +1,11 @@
 module.exports = {
-  url: 'https://dospolov.com',
+  url: 'https://talentroy.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by Marat Dospolov',
+  title: 'Talent &apos; s Tech Blog',
   keywords:
-    'account surfer, trello bookmark, trello, productivity, javascript, Marat Dospolov, choosy windows, browser selector',
-  subtitle: 'Developer. Optimizer. Learner.',
-  copyright: '© 2020 | Kyiv, Ukraine',
+    'account surfer, trello bookmark, trello, productivity, javascript, choosy windows, browser selector',
+  subtitle: 'Developer. Writer. Historian.',
+  copyright: '© 2020 | Abuja, Nigeria',
   disqusShortname: 'dospolov',
   postsPerPage: 20,
   googleAnalyticsId: 'UA-6589522-7',
@@ -20,15 +20,15 @@ module.exports = {
     }
   ],
   author: {
-    name: 'Marat Dospolov',
+    name: 'Talent',
     photo: '/photo.jpg',
-    bio: 'Developer. Optimizer. Learner.',
+    bio: 'Developer. Writer. Historian.',
     contacts: {
-      github: 'dospolov',
-      twitter: 'marat_dospolov',
-      telegram: 'dospolov',
-      instagram: 'dospolov',
-      facebook: 'dospolov',
+      github: 'talent-roy',
+      twitter: 'leo_chiavelli',
+      telegram: 'talent',
+      instagram: 'talent',
+      facebook: 'talentroy',
       rss: '/rss.xml'
     }
   }

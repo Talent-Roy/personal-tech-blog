@@ -86,7 +86,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: 'Blog by Marat Dospolov'
+            title: 'Talent &apos; Blog'
           }
         ]
       }
