@@ -4,7 +4,7 @@ title: Automatically add friends to Facebook
 slug: /posts/add-friends-fb
 draft: false
 priority: 0
-date: 2018-05-23T01:14:45.562Z
+date: 2020-03-18T01:14:45.562Z
 description: Adds people with more than 10 common friends.
 category: automation
 tags:
