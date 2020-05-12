@@ -21,7 +21,7 @@ componentDidMount() {
   }
 ```
 
-If you are running react 16. and above, a more elegant and reusable fix would be to create a `<ScrollToTop/>` component which can be imported and used wherever you have such an issue. The content of the `<ScrollToTop/>` component would look like thus: 
+If you are running react 16. and above, a more elegant and reusable fix would be to create a `<ScrollToTop/>` component which can be imported and used in your App.js page. I'll show you how to do that, but first the content of the `<ScrollToTop/>` component would look thus: 
 
 ```javascript
 import { useEffect } from "react";
@@ -37,3 +37,18 @@ export default function ScrollToTop() {
   return null;
 }
 ```
+
+With this, you can then import it and render in your App.js like this:
+
+```javascript
+function App() {
+  return (
+    <Router>
+      <ScrollToTop />
+      <App />
+    </Router>
+  );
+}
+```
+
+This would fix the problem on all the pages on your App. You can find more information [here](https://github.com/ReactTraining/react-router/blob/master/packages/react-router-dom/docs/guides/scroll-restoration.md)
